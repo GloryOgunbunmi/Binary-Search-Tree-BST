@@ -1,12 +1,10 @@
 /**
  * @author Aduragbemi Ogunbunmi
- * Data Structures and Algorithms - CSCI 2302 
  * =====================================
  * Assignment:Complete the tasks listed in the beginning comment block in BST.java.
  * Note findKth is finding the order of the element, if the user invoke the method as t.findKth(5), 
  * your method should return the fifth element from the tree t. The smallest element is the 1st 
  * element and should be returned when t.findKth(1) is invoked 
- *
  * A Simple implementation of a BST
  * TODO: Implement 
  * 1. size method
@@ -16,17 +14,13 @@
  * 4. remove method (Naive option: if the node to be removed is not the leaf node ==> re-insert its children into the BST
  *  (Should replace by max of left branch or min or right branch)
  * 5. implement findKth method - finding the Kth element in the tree
- *  
- *   
  * @author knguyen
- *
  */
 
 
 
 /**
  * The Actual BST
- * @author knguyen
  *
  */
 public class BST {
